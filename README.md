@@ -15,9 +15,12 @@
 За да се постигне овој критериум потребни се минимум 5 теста.
 
 5. 
-- TXX
-- FTX
-- FFF
-- FFT
+- TXX: allItems = [{name='Apple', quantity=0, price=310, discount=0}]
+- FTX: allItems = [{name='Apple', quantity=0, price=1, discount=0.1}]
+- FFF: allItems = [{name='Apple', quantity=0, price=0, discount=0}]
+- FFT: allItems = [{name='Apple', quantity=15, price=0, discount=0}]
 
 За да се постигне овој критериум потребни се минимум 4 теста.
+
+6.
+Unit тестовите ги напишав со помош на assert изрази за да проверам дали фрлаат Exception и дали резултатите што се добиваат се точни.
